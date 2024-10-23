@@ -5,9 +5,6 @@ import statistics as stat
 
 ##################################################### Estrazione dati
 
-	#data_filename = "/home/s258303@DS.UNITS.IT/Desktop/lez10/datidiagramma.dat"
-	#data_filename = "/home/claudia/Scrivania/AbInfo/esame/datidiagramma.dat"
-
 #assegnazione del path del file
 #path=input('Inserire il path che leggi nella riga precedente: ')
 #data_filename = str(path)
