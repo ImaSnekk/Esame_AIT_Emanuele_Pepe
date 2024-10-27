@@ -4,12 +4,12 @@
 mkdir Esame_Pepe
 
 # Copia il file
-cp Esame_AIT_EP.py esameEP_c.py
-cp esecuzione_EP.sh esecuzione_EP_c.sh
+cp Esame_AIT_EP.py Esame_AIT_EP_c.py
+cp Esecuzione_EP.sh Esecuzione_EP_c.sh
 
 # Sposta i file copiati nella cartella
-mv esameEP_c.py Esame_Pepe
-mv esecuzione_EP_c.sh Esame_Pepe
+mv Esame_AIT_EP_c.py Esame_Pepe
+mv Esecuzione_EP_c.sh Esame_Pepe
 
 # Entra nella cartella
 cd Esame_Pepe
@@ -21,5 +21,5 @@ APP_DIR=`pwd`
 export PYTHONPATH=$APP_DIR:$PYTHONPATH
 
 # Aggiungi i permessi di esecuzione allo script Python e a quello Bash
-chmod +x $APP_DIR/esameEP_c.py
-chmod +x $APP_DIR/esecuzione_EP_c.sh
+chmod +x $APP_DIR/Esame_AIT_EP_c.py
+chmod +x $APP_DIR/Esecuzione_EP_c.sh
