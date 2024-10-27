@@ -2,6 +2,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import statistics as stat
+import sys
 
 ##################################################### Estrazione dati
 
@@ -42,7 +43,7 @@ for i in range(len(age_bin) - 1):
 
 
 plt.legend(loc='upper right', ncol=2, fontsize='small') 
-plt.savefig('diagHR.png')
+plt.savefig('diagramma_HR.png')
 plt.show()
 
 
@@ -133,7 +134,7 @@ plt.ylabel('Numero di stelle')
 plt.legend()
 plt.title('Popolazioni stellari')
 
-plt.savefig('pop_distrib2.png')
+plt.savefig('pop_distrib_split_2.png')
 plt.show()
 
 #valori di media e mediana per ogni popolazione
