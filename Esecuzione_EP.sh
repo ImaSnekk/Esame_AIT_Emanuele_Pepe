@@ -18,4 +18,4 @@ export DATA_FILE_PATH=`pwd`/Nemo_6670.dat
 chmod +rwx $DATA_FILE_PATH 
 
 #inizia esercizio di Python
-python3 esameEP_c.py $DATA_FILE_PATH
+python3 Esame_AIT_EP_c.py $DATA_FILE_PATH
