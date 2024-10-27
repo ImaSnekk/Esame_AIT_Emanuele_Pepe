@@ -5,16 +5,10 @@ import statistics as stat
 
 ##################################################### Estrazione dati
 
-#assegnazione del path del file
-#path=input('Inserire il path che leggi nella riga precedente: ')
-#data_filename = str(path)
+# Prendere il percorso del file di dati dal primo argomento passato
+data_file_path = sys.argv[1]
+data = np.loadtxt(data_file_path, unpack=True)
 
-path="/Users\emanu\.spyder-py3\AIT/Nemo_6670.dat"
-data_filename = "/Users\emanu\.spyder-py3\AIT/Nemo_6670.dat"
-
-data_filname = np.loadtxt(path,unpack=True)
-#apro il file e leggo i dati
-data = np.loadtxt(data_filename, delimiter=' ',unpack=True)
 M_ass=data[4]
 b_y=data[8]
 age_parent=data[12]
