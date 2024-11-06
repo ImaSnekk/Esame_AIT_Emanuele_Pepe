@@ -6,6 +6,8 @@ Scaricare i file .sh e .py
 
 Cambiare i permessi di 'installazione_EP.sh' tramite il comando ' chmod -x installazione_EP.sh ' ed eseguirlo tramite il comando ' source installazoine_EP.sh ' (notare che senza usare 'source' per eseguire, bisognerà spostarsi manualmente nella cartella creata per l'esame tramite il comando cd Esame_Pepe, cosa non necessaria in caso contrario).
 
+Su console, vengono mostrati il PATH e PYTHONPATH per accertarsi che la procedura di loro aggiornamento sia stata correttamente effetuata.
+
 Eseguire il file di esecuzione creato di nome 'esecuzioneEP_c.sh'. 
 
 I grafici verranno salvati nella cartella creata.
