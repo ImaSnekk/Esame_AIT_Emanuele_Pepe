@@ -12,7 +12,8 @@ I grafici verranno salvati nella cartella creata.
 
 
 
-COMMENTO ESERCIZIO PYTHON
+COMMENTO ESERCIZIO PYTHON:
+
 Il primo grafico prodotto è il diagramma HR delle stelle.
 
 In seguito vengono mostrati due istogrammi relativi alla metallicità delle stelle, il primo in un multiplot per evitare sovrapposizioni ed il secondo in un solo plot come richiesto. Entrambi rappresentano lo stesso set di dati, ma con differenza nella grafica per aiutare la loro interpretazione. In aggiunta, nel secondo grafico, sono presenti anche media e mediana dei valori per ogni popolazione stellare.
