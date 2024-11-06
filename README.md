@@ -11,6 +11,8 @@ Eseguire il file di esecuzione creato di nome 'esecuzioneEP_c.sh'.
 I grafici verranno salvati nella cartella creata.
 
 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
 
 COMMENTO ESERCIZIO PYTHON:
 
